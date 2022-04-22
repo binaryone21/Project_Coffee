@@ -10,4 +10,9 @@ public class SampleController {
 	public String home() {
 		return "sample/sampleList";
 	}
+
+	@GetMapping(value = "/sh")
+	public String sh() {
+		return "layout/header";
+	}
 }

@@ -1,0 +1,7 @@
+.lay_hd {
+    display: flex;
+}
+.lay_hd_title {
+    font-size: 30px;
+    color: red;
+}
