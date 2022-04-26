@@ -1,7 +1,55 @@
 .lay_hd {
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    height: 100px;
+    line-height: 100px;
+}
+.lay_hd > div {
+    width: 1250px;
+    margin: 0 auto;
     display: flex;
 }
 .lay_hd_title {
+    width: 350px;
     font-size: 30px;
-    color: red;
+    color: darkblue;
+    text-align: center;
+    font-weight: bold;
+}
+.lay_hd_nav {
+    width: calc(100% - 350px);
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+
+.lay_ft {
+    background: black;
+    height: 600px;
+    color: #AAA;
+    font-weight: bold;
+}
+.lay_ft_img {
+    width: 250px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.lay_ft_nav {
+    width: 750px;
+    margin: 50px auto 80px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.lay_ft_nav div {
+    width: 150px;
+    height: 50px;
+    border: 3px solid #AAA;
+    border-radius: 10px;
+    line-height: 50px;
+    text-align: center;
+}
+.lay_ft_info {
+    text-align: center;
+    margin-top: 50px;
 }
